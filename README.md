@@ -1,4 +1,4 @@
-# Supplementary Information: *Assessment and modeling of the isobaric vapor-liquid-liquid equilibrium for water + cyclopentyl methyl ether + alcohol (ethanol or propan-1-ol) ternary mixtures*
+# Supporting Information: *"Simulation and data-driven modeling of the transport properties of the Mie fluid"*
 
 This repository is part of the Supporting Information of the article *Simulation and data-driven modeling of the transport properties of the Mie fluid* by Gustavo Chaparro and Erich A. Müller. (Submitted to Journal of Physical Chemistry B).
 
