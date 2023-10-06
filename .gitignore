@@ -1,1 +1,36 @@
 /.DS_Store
+examples/.ipynb_checkpoints/
+examples/__pycache__/
+
+
+#Python Cache#
+##############
+
+*.pyc
+*.pyo
+
+#Python Compiled#
+#################
+
+*.pyd
+*.pyc
+
+#Compiled objects#
+*.c
+
+# C extensions
+*.so
+*.DS_Store
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
