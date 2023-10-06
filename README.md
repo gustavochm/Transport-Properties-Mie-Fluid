@@ -5,7 +5,7 @@ This repository is part of the Supporting Information of the article *Simulation
 This repository includes the following information:
 - Databases of the self diffusivity, shear viscosity and thermal conductivity of the Mie fluid computed with Equilibrium Molecular Dynamics.
 - Artificial Neural Networks models to compute the transport properties of the Mie Fluid
-- Examples of how tho access the database and use the models.
+- Examples of how to access the database and use the models.
 
 
 ### Databases
