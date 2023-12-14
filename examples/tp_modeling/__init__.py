@@ -2,4 +2,6 @@ from .HelmholtzModel import HelmholtzModel, helper_get_alpha
 from .TransportModelPVT import TransportModel_PVT, TransportModel_PVT_Tinv
 from .TransportModelEntropy import TransportModel_entropy
 from .TransportModelEntropy import diffusivity_scaling, viscosity_scaling, thermal_conductivity_scaling
+from .TransportModelPVTResidual import TransportModelResidual_PVT_Tinv
 from .flax_utils import linear_activation
+from .DiluteGasTransportPropertiesMie import density_diffusivity_mie6_dilute, viscosity_mie6_dilute, thermal_conductivity_mie6_dilute
