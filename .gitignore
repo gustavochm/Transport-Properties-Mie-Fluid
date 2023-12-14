@@ -1,6 +1,8 @@
 /.DS_Store
 examples/.ipynb_checkpoints/
 examples/__pycache__/
+examples/tp_modeling/__pycache__/
+models/.DS_Store
 
 
 #Python Cache#
