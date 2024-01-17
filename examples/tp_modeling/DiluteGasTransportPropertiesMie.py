@@ -87,7 +87,8 @@ def mie6_collision_integral(lambda_r, Tad, kk):
     DELTA_kk = 0.5
 
     Tad_inv = 1. / Tad
-    lr_vector = np.array([1., 1/lambda_r, 1/lambda_r**2, 1/lambda_r**3])
+    # lr_vector = np.array([1., 1/lambda_r, 1/lambda_r**2, 1/lambda_r**3]) # eq 4a
+    lr_vector = np.array([1., 1/lambda_r, 1/lambda_r**2, 1/lambda_r**2*np.log(lambda_r)]) # eq 4b, with typo fixed
 
     ln_omega = -(2. / lambda_r) * np.log(Tad)
     ln_omega += delta_kk * np.log(1 - 2./(3*lambda_r))

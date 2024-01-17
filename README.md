@@ -1,6 +1,6 @@
 # Supporting Information: *"Simulation and data-driven modeling of the transport properties of the Mie fluid"*
 
-This repository is part of the Supporting Information of the article *Simulation and data-driven modeling of the transport properties of the Mie fluid* by Gustavo Chaparro and Erich A. Müller. (Submitted to Journal of Physical Chemistry B).
+This repository is part of the Supporting Information of the article *Simulation and data-driven modeling of the transport properties of the Mie fluid* by Gustavo Chaparro and Erich A. Müller. (Published in Journal of Physical Chemistry B, https://doi.org/10.1021/acs.jpcb.3c06813).
 
 This repository includes the following information:
 - Databases of the self diffusivity, shear viscosity and thermal conductivity of the Mie fluid computed with Equilibrium Molecular Dynamics.
@@ -36,6 +36,12 @@ The following calculations are included in the [``examples``](./examples) folder
 - pandas (tested on version 1.5.3)
 - jax (tested on version 0.4.4)
 - flax (tested on version 0.6.6)
+
+### Erratum (17-01-2024)
+
+In the original [publication](https://doi.org/10.1021/acs.jpcb.3c06813), we proposed some ANN models that only considered the "residual" contribution of a transport property (see Eqs. 18). The originally implemented correlation for the transport property at the dilute gas limit had a typo. This typo has been corrected in this repo, and the models produced by Eqs. 18 have been updated accordingly. This typo has also been corrected in the [supplementary information](./SI_Transport_Properties_Mie_fluid.pdf) (Eq. S4).
+
+Thanks to [Vegard Jervell](https://github.com/vegardjervell) for making us aware of this.
 
 ### License information
 
